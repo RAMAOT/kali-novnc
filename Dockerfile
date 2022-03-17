@@ -1,8 +1,8 @@
-FROM kalilinux/kali
+FROM kalilinux/kali-last-release
 
-LABEL AboutImage "Kali_Linux_Novnc"
+LABEL AboutImage "Kali_Linux_NoVnc"
 
-LABEL Maintainer "Howtotech"
+LABEL Maintainer "RAMAOT"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
