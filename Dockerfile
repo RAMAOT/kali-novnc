@@ -8,7 +8,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 ENV DEBIAN_FRONTEND=noninteractive \
 #VNC Server Password
-	VNC_PASS="samplepass" \
+	VNC_PASS="726268" \
 #VNC Server Title(w/o spaces)
 	VNC_TITLE="Kali_Linux" \
 #VNC Resolution(720p is preferable)
