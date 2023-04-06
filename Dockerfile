@@ -81,8 +81,7 @@ COPY ./ /usr/app
 RUN	npm i websockify
 
 WORKDIR /app
-#Install Heroku CLI
-RUN curl https://cli-assets.heroku.com/install.sh | sh
+
 #Install Kali Tools Top 10
 RUN echo 'Installing additional packages...' && \
 	export DEBIAN_FRONTEND=noninteractive && \
